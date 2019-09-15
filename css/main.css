@@ -1,19 +1,116 @@
 body {
     min-width: 320px;
 }
-.block01{
-    min-height: auto;
-    background: url(images/Layer5.jpg);
-    background-repeat: no-repeat;
+p, h1, h2, h3, h4, h6 {
+    background: transparent;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 } 
-.facebook__ {
-    background-color: rgb( 255, 255, 255 );
-    box-shadow: 0px 1px 1px 0px rgb( 0, 0, 0 );
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular.ttf') format('truetipe');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Bold.ttf') format('truetipe');
+    font-weight: 700;
+}
+a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+li {
+    display: inline;
+    margin: 0 0 0 20px;
+}
+h1{
+    color: white; }
+.movie-list {
+    padding: 80px 0;
+} 
+.container {
+    max-width: 1030px;
+    margin: 0 auto;
+}
+.movie-list__table {
+    width: 100%;
+    border-collapse: collapse; 
+    border-radius: 15px;
+    overflow: hidden;
+    font-family: "Roboto";
+}
+.movie-list__table th {
+    font-size: 30px;
+    font-weight: 700px;
+    color: #fff;
+    background: #a3cc40;
+    padding: 20px 30px;
+    text-align: center;
+}
+.movie-table__header {
+        font-size: 50px;
+        font-family: "Roboto";
+        color: rgb(37, 37, 37);
+        font-weight: bold;
+        margin: 0 0 77px;
+        text-align: center
+        }
+.movie-list__table td {
+    font-size: 21px;
+    color: #fff;
+}
+.movie-list__table1 {
+    background-color: rgb(55, 55, 55);
+}
+.movie-list__table2 {
+    background-color: rgb(75, 77, 79); 
+}
+.movie-list__center {
+    text-align: center;
+    padding: 26px 65px 26px 13px;
+}
+.movie-list__left {
+    text-align: left;
+    padding: 0px 0px 0px 25px;
+}
+
+
+.block01{
+    min-height: 600px;
+    min-width: auto;
+    background: url(/images/Layer5.jpg);
+    background-repeat: no-repeat;
+    background-position: relative;
+} 
+.foonav{
+    background-color: yellow;
+}
+
+ ._1 {
+    background-color: rgb(55, 55, 55);
     position: absolute;
-    left: 541px;
-    top: 4818px;
-    width: 45px;
-    height: 45px;
-    z-index: 11;
+    left: 169px;
+    top: 1726px;
+    width: 1030px;
+    height: 75px;
+    z-index: 97;
+  }
+  ._2 {
+    background-color: rgb(75, 77, 79);
+    position: absolute;
+    left: 169px;
+    top: 1801px;
+    width: 1030px;
+    height: 75px;
+    z-index: 96;
   }
   
