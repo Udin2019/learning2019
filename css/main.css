@@ -1,7 +1,4 @@
-body {
-    min-width: 320px;
-}
-p, h1, h2, h3, h4, h6 {
+html, body, p, h1, h2, h3, h4, h6 {
     background: transparent;
     border: 0;
     margin: 0;
@@ -94,23 +91,13 @@ h1{
 .foonav{
     background-color: yellow;
 }
+.form__mod {
+    max-width: 450px;
+    padding: 25px;
+}
+.form__indent {
+    margin: 0 0 20px;
+}
 
- ._1 {
-    background-color: rgb(55, 55, 55);
-    position: absolute;
-    left: 169px;
-    top: 1726px;
-    width: 1030px;
-    height: 75px;
-    z-index: 97;
-  }
-  ._2 {
-    background-color: rgb(75, 77, 79);
-    position: absolute;
-    left: 169px;
-    top: 1801px;
-    width: 1030px;
-    height: 75px;
-    z-index: 96;
-  }
+
   
