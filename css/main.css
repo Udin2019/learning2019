@@ -98,6 +98,17 @@ h1{
 .form__indent {
     margin: 0 0 20px;
 }
-
+.text__form {
+font-size: 18px;
+color:#6c6c6c;
+padding: 15px 11px;
+border: 1px solid #bebebe;
+border-radius: 5px;
+width: 100%;
+}
+.select__form {
+    -webkit-appearance: none;
+    
+}
 
   
