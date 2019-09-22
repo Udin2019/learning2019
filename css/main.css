@@ -83,6 +83,9 @@ h1{
     text-decoration: underline;
     text-transform: capitalize;
 }
+.head__banner {
+    margin: 150px 0px 0px 0px;
+}
 .head__banner h2 {
     color: white;
     font-weight: 400;
@@ -91,7 +94,6 @@ h1{
 
 .text__centre {
     text-align: center;
-    margin: 150px 0px 0px 0px;  
 }
 
 .welcome {
@@ -113,8 +115,23 @@ h1{
 margin-bottom: 22px;
 }
 
+.advantage {
+    margin: 0px 0px 0px 0px; 
+    display: inline-block;
+}
+.advantage h3 {
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;    
+}
+
+.container h2 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
 .movie-list {
-    padding: 80px 0;
+    padding: 80px 0 39px;
 } 
 
 .container {
@@ -177,7 +194,9 @@ margin-bottom: 22px;
     text-align: left;
     padding: 0px 0px 0px 25px;
 }
-
+.under__table {
+    padding: 0 275px;
+}
 
 .form__mod {
     max-width: 450px;
