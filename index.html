@@ -12,37 +12,43 @@
 
 <body>
     <div class="block01">
-        <a href="images/logo.png" target="_blank" title="иннополис билеты в кино"><img style="background-color: black"
-                src="images/logo.png" alt="логотип Иннополис"></a>
+        <div class="logo">
+            <a href="images/logo.png" target="_blank" title="иннополис билеты в кино"><img src="images/logo.png"
+                    alt="логотип Иннополис"></a>
+        </div>
         <nav class="foonav">
             <ul>
                 <li><a href=#buy>заказать</a></li>
                 <li><a href=#tiket>билет</a></li>
                 <li><a href=#advantage>преимущества</a></li>
                 <li><a href=#film>фильмы</a></li>
-                <li><a href=#contavt>контакты</a></li>
-
-                <li>Ваш город:
-                    <a href="#" target="_blank" title="Иннополис билеты в кино в Вашем городе">Москва</a></li>
+                <li><a href=#contact>контакты</a></li>
             </ul>
         </nav>
+        <p class="city">
+                <span>Ваш город:</span>
+                <a href="#" target="_blank" title="Иннополис билеты в кино в Вашем городе">Москва</a>
+        </p>
 
-        <div class="head__baner text__centre">
+        <div class="head__banner text__centre">
             <h1>Закажите билет в кино</h1>
-            <p><i>Всем покупателям подарок!</i></p>
+            <h2>Всем покупателям подарок!</h2>
         </div>
     </div>
-    <section>
-        <h2>Добро пожаловать!</h2>
+    <div class="welcome">
+        <section>
+            <h2>Добро пожаловать!</h2>
 
-        <p>Cumque dolorem eum harum laudantium libero molestias saepe soluta? Facere minima optio perferendis
-            quibusdam
-            quis reprehenderit, saepe! Debitis enim optio saepe voluptatibus.</p>
+            <p>Cumque dolorem eum harum laudantium libero molestias saepe soluta? Facere minima optio perferendis
+                quibusdam
+                quis reprehenderit, saepe! Debitis enim optio saepe voluptatibus.</p>
 
-        <p>Cumque dolorem eum harum laudantium libero molestias saepe soluta? Facere minima optio perferendis
-            quibusdam
-            quis reprehenderit, saepe! Debitis enim optio saepe voluptatibus.</p>
-    </section>
+            <p>Cumque dolorem eum harum laudantium libero molestias saepe soluta? Facere minima optio perferendis
+                quibusdam
+                quis reprehenderit, saepe! Debitis enim optio saepe voluptatibus.</p>
+        </section>
+    </div>
+
     <article>
         <h2>Почему мы?</h2>
 
@@ -209,32 +215,41 @@
             <input type="text" name="client_name" placeholder="Имя*" recuired name class="text__form" />
         </div>
         <div class="form__indent">
-            <select name id class="select__form text__form">
+            <select name id class="select__form text__form" placeholder="Имя*">
                 <option value="1">Выбор1</option>
                 <option value="2">Выбор2</option>
                 <option value="3">Выбор3</option>
             </select>
         </div>
         <div class="form__indent">
-            <input id="radio1" type="radio" value="1" recuired name="radio1">
-            <label for="radio1">Выбор1</label>
-            <input id="radio2" type="radio" value="2" required name="radio2">
-            <label for="radio2">Выбор2</label>
+            <div class="radio__form">
+                <input id="radio1" type="radio" value="1" recuired name="radio1">
+                <label for="radio1">Выбор1</label>
+            </div>
+            <div class="radio__form">
+                <input id="radio2" type="radio" value="2" required name="radio2">
+                <label for="radio2">Выбор2</label>
+            </div>
         </div>
         <div class="form__indent">
-            <textarea placeholder="Комментарий ">
+            <textarea placeholder="Комментарий" class="text__form textarea__form">
                     </textarea>
         </div>
         <div class="form__indent">
-            <input type="checkbox" id="checkbox" required name>
-            <label for="checkbox">Согласие на обработку персональных данных</label>
+            <input type="checkbox" id="checkbox1" required name class="checkbox__form">
+            <label for="checkbox1">
+
+                "Согласие на обработку персональных данных"
+            </label>
         </div>
         <div class="form__indent">
-            <input type="file" id="file">
-            <label for="file">Загрузить файл</label>
+            <div class="form__file__indent">
+                <input type="file" id="file1" class="file__form">
+                <label for="file1">Загрузить файл</label>
+            </div>
         </div>
         <div class="form__indent">
-            <button type="submit">Отправить</button>
+            <button class="button1" type="submit">Отправить</button>
         </div>
     </div>
 </form>

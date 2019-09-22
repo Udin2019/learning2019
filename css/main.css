@@ -1,12 +1,3 @@
-html, body, p, h1, h2, h3, h4, h6 {
-    background: transparent;
-    border: 0;
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-} 
 @font-face {
     font-family: 'Roboto';
     src: url('../fonts/Roboto-Regular.ttf') format('truetipe');
@@ -17,10 +8,36 @@ html, body, p, h1, h2, h3, h4, h6 {
     src: url('../fonts/Roboto-Bold.ttf') format('truetipe');
     font-weight: 700;
 }
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Light.ttf') format('truetipe');
+    font-weight: 200;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Thin.ttf') format('truetipe');
+    font-weight: 100;
+}
+
+
+html, body, p, h1, h2, h3, h4, h6, section {
+    background: transparent;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+} 
+
 a {
     color: white;
     text-transform: uppercase;
     text-decoration: none;
+}
+p {
+    font-size: 14px;
+    font-weight: 200;
 }
 ul {
     list-style: none;
@@ -29,15 +46,96 @@ li {
     display: inline;
     margin: 0 0 0 20px;
 }
+
 h1{
-    color: white; }
+    font-size: 80px;
+    font-weight: 100;
+    color: white;
+    margin: 0 0 10px;
+}
+.block01{
+    min-height: 600px;
+    min-width: auto;
+    background: url(/images/Layer5.jpg);
+    background-repeat: no-repeat;
+    background-position: relative;
+} 
+.logo {
+    padding: 54px 0 0 174px;
+    display: inline-block;
+}
+
+.foonav{
+    font-size: 15px;
+    font-weight: 100;
+    display: Inline-block;
+    color: white;
+    padding: 0px 0px 0px 260px;  
+}
+.city {
+    color: white;
+    font-size: 15px;
+    font-weight: 100;
+    display: inline-block;
+    padding: 0 0 0 22px;
+}
+.city a {
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+.head__banner h2 {
+    color: white;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+.text__centre {
+    text-align: center;
+    margin: 150px 0px 0px 0px;  
+}
+
+.welcome {
+    width: 515px;
+    padding: 30px;
+    background: white;
+    position: relative;
+    left: 685px;
+    box-shadow: 0 1px 2px 0px black;
+}
+
+.welcome h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 42px;
+}
+
+.welcome p {
+margin-bottom: 22px;
+}
+
 .movie-list {
     padding: 80px 0;
 } 
+
 .container {
     max-width: 1030px;
     margin: 0 auto;
+    padding: 0 15px;
 }
+
+.button1 {
+    display: inline-block;
+    background: #90d23d;
+    color: #ffffff;
+    padding: 15px 30px;
+    border-radius: 12px;
+    font-size: 18px;
+    transition: .2s;
+    border: 2px solid #90d23d;
+    cursor: pointer;
+}
+
+
 .movie-list__table {
     width: 100%;
     border-collapse: collapse; 
@@ -81,22 +179,16 @@ h1{
 }
 
 
-.block01{
-    min-height: 600px;
-    min-width: auto;
-    background: url(/images/Layer5.jpg);
-    background-repeat: no-repeat;
-    background-position: relative;
-} 
-.foonav{
-    background-color: yellow;
-}
 .form__mod {
     max-width: 450px;
     padding: 25px;
 }
 .form__indent {
     margin: 0 0 20px;
+}
+.select__form {
+    -webkit-appearance: none;
+    background: url(../images/down-arrow.svg) 96% center / 5% no-repeat #fff;
 }
 .text__form {
 font-size: 18px;
@@ -106,9 +198,67 @@ border: 1px solid #bebebe;
 border-radius: 5px;
 width: 100%;
 }
-.select__form {
-    -webkit-appearance: none;
-    
+.radio__form {
+    margin: 0 0 10px;
 }
 
+.radio__form + label {
+    font-size: 16px;
+    padding-left: 23px;
+    position: relative;
+}
+
+.textarea__form {
+    height: 250px;
+    resize: none;
+}
+.checkbox__form {
+    display: none;
+}
+
+.checkbox__form + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 1px;
+    width: 14px;
+    height: 14px;
+    border: 1px solid black;
+}
+
+.checkbox__form + label i {
+    position: absolute;
+    display: none;
+    font-size: 12px;
+    left: 2px;
+    top: 3px;
+    color: #90d23d
+
+}
+.form__file__indent {
+    position: relative;
+}
+
+.file__form {
+    position: absolute;
+    opacity: 0;
+    width: 1px;
+    height: 1px;
+    z-index: 1;
+    box-shadow: none;
+    border: 0;
+}
+.file__form + label {
+    font-size: 18px;
+    color: #90d23d;
+    position: relative;
+    border: 1px solid #90d23d;
+    padding: 15px;
+    z-index: 2;
+    background: #fff;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+    border-radius: 5px;
+}
   
