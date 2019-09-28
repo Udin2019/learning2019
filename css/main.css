@@ -224,6 +224,7 @@ h1 {
 .advantage {
     float: left;
     width: 33.33%;
+    vertical-align: top;
 }
 
 .block02__row {
@@ -231,8 +232,25 @@ h1 {
 }
 
 .block02 {
-    position: relative
+    position: relative;
+    
 }
+.block02__pluses {
+    padding-top: 75px;
+    
+}
+
+.block02__image-wrap{
+    height: 211px;
+}
+.block02__head {
+    margin-bottom: 140px;
+}
+.block02__image-wrap{
+    position: relative;
+    margin-bottom: 15px;
+}
+
 .block02__info-wrap {
     width: 1030px;
     margin: 0 auto;
@@ -257,7 +275,7 @@ h1 {
 .container {
     max-width: 1030px;
     margin: 0 auto;
-    padding: 0 15px;
+    
 }
 
 .button2 {
