@@ -100,7 +100,7 @@ h1 {
 .block01 {
     background-position: relative;
     background: url(/images/Layer5.jpg) no-repeat top center / cover;
-    height: 100vh;
+    height: 110vh;
     position: relative;
     overflow: hidden;
 
@@ -109,9 +109,9 @@ h1 {
 .block01:after {
     content: '';
     position: absolute;
-    width: 120%;
-    height: 160px;
-    transform: rotate(-6deg);
+    width: 130%;
+    height: 237px;
+    transform: rotate(-5deg);
     background: #fff;
     bottom: -80px;
     left: 0;
@@ -203,11 +203,11 @@ h1 {
 
 .welcome {
     width: 515px;
-    padding: 40px 30px;
+    padding: 30px;
     background: white;
     position: absolute;
     right: 0;
-    top: -130px;
+    top: -200px;
     box-shadow: 0 1px 2px 0px black;
 }
 
@@ -233,20 +233,23 @@ h1 {
 
 .block02 {
     position: relative;
-    
-}
-.block02__pluses {
-    padding-top: 75px;
-    
+
 }
 
-.block02__image-wrap{
+.block02__pluses {
+    padding-top: 5px;
+
+}
+
+.block02__image-wrap {
     height: 211px;
 }
+
 .block02__head {
     margin-bottom: 140px;
 }
-.block02__image-wrap{
+
+.block02__image-wrap {
     position: relative;
     margin-bottom: 15px;
 }
@@ -263,7 +266,7 @@ h1 {
     margin-bottom: 20px;
 }
 
-.container > h2 {
+.container>h2 {
     font-size: 50px;
     font-weight: 700;
 }
@@ -275,7 +278,6 @@ h1 {
 .container {
     max-width: 1030px;
     margin: 0 auto;
-    
 }
 
 .button2 {
@@ -342,8 +344,9 @@ h1 {
 }
 
 .under__table {
-    padding: 0 275px;
+    padding: 0 100px;
 }
+
 
 #triangle-up {
     top: 10px;
@@ -365,7 +368,7 @@ h1 {
 
 .gift {
     text-align: right;
-    padding: 10px 168px 10px 525px;
+    padding: 10px 0px 10px 328px;
     margin-top: 152px;
     margin-bottom: 97px
 }
@@ -378,6 +381,72 @@ h1 {
 
 .gift p {
     margin-bottom: 22px;
+}
+.film__head {
+font-size: 50px;
+    font-family: "Roboto";
+    color: rgb(37, 37, 37);
+    font-weight: bold;
+}
+.film__text {
+    margin: 40px 390px 0 0;
+ }
+
+.movie-grid__flex {
+    display: flex;
+    margin: 0 0;
+}
+
+.movie-grid__item {
+    padding: 18px;
+}
+
+.movie-grid__inner1 {
+    position: relative;
+}
+
+.movie-grid__description {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(144, 210, 61, .8);
+    border-radius: 11px;
+    padding: 23px;
+    display: flex;
+    flex-direction: column;
+}
+
+.movie-grid__text1 {
+    font-size: 35px;
+    font-weight: 900;
+    color: #ffffff;
+    margin: 0 0 10px;
+}
+
+.movie-grid__hr {
+    width: 80px;
+    height: 8px;
+    border: 0;
+    box-shadow: none;
+    margin: 0 0 14px;
+    background: #fff;
+}
+
+.movie-grid__text2 {
+    font-size: 18px;
+    color: #ffffff;
+    flex: 1;
+}
+
+.movie-grid__svg {
+    fill: #fff;
+    transition: .2s;
+}
+
+.movie-grid__svg:hover {
+    fill: green;
 }
 
 .form__mod {
