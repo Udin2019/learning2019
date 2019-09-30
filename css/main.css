@@ -336,11 +336,13 @@ h1 {
 .movie-list__center {
     text-align: center;
     padding: 26px 65px 26px 13px;
+    position: relative;
 }
 
 .movie-list__left {
     text-align: left;
     padding: 0px 0px 0px 25px;
+    position: relative;
 }
 
 .under__table {
@@ -348,7 +350,7 @@ h1 {
 }
 
 
-#triangle-up {
+#triangle-up:after {
     top: 10px;
     z-index: 1;
     width: 0;
@@ -356,14 +358,20 @@ h1 {
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
     border-bottom: 20px solid white;
+    position: absolute;
+    top: 28px;
+    left: 182px;
 }
 
-#triangle-down {
+#triangle-down:after {
     width: 0;
     height: 0;
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
     border-top: 20px solid white;
+    position: absolute;
+    right: 123px;
+    top: 29px
 }
 
 .gift {
@@ -414,7 +422,6 @@ font-size: 50px;
     background: rgba(144, 210, 61, .8);
     border-radius: 11px;
     padding: 23px;
-    display: flex;
     flex-direction: column;
 }
 
