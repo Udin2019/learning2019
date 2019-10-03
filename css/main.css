@@ -1,3 +1,46 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
 @font-face {
     font-family: 'Roboto';
     src: url('../fonts/Roboto-Regular.ttf') format('truetipe');
@@ -56,6 +99,9 @@ label,
     text-decoration: none;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+}
+html {
+    font-size: 20px;
 }
 
 img {
@@ -263,7 +309,7 @@ h1 {
 .advantage h3 {
     font-size: 35px;
     font-weight: 700;
-    margin-bottom: 20px;
+    margin-bottom: 1rem;
 }
 
 .container>h2 {
@@ -276,7 +322,7 @@ h1 {
 }
 
 .container {
-    max-width: 1030px;
+    max-width: 53rem;
     margin: 0 auto;
 }
 
@@ -284,20 +330,20 @@ h1 {
     display: inline-block;
     background: #90d23d;
     color: #ffffff;
-    padding: 15px 30px;
-    border-radius: 12px;
+    padding: .75rem 1.5rem;
+    border-radius: .6rem;
     font-size: 18px;
     transition: .2s;
     border: 2px solid #90d23d;
     cursor: pointer;
-    margin-top: 40px;
+    margin-top: 2rem;
 }
 
 
 .movie-list__table {
     width: 100%;
     border-collapse: collapse;
-    border-radius: 15px;
+    border-radius: .75rem;
     overflow: hidden;
     font-family: "Roboto";
 }
@@ -307,7 +353,7 @@ h1 {
     font-weight: 700px;
     color: #fff;
     background: #a3cc40;
-    padding: 20px 30px;
+    padding: 1rem 1.5rem;
     text-align: center;
 }
 
@@ -335,69 +381,89 @@ h1 {
 
 .movie-list__center {
     text-align: center;
-    padding: 26px 65px 26px 13px;
+    padding: 1.3rem 3.25rem 1.3rem 0.65rem;
     position: relative;
 }
 
 .movie-list__left {
     text-align: left;
-    padding: 0px 0px 0px 25px;
+    padding: 0px 0px 0px 1.25rem;
     position: relative;
 }
 
 .under__table {
-    padding: 0 100px;
+    padding: 0 5rem;
 }
 
 
 #triangle-up:after {
-    top: 10px;
+    top: .5rem;
     z-index: 1;
     width: 0;
     height: 0;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-bottom: 20px solid white;
+    border-left: .5rem solid transparent;
+    border-right: .5rem solid transparent;
+    border-bottom: 1rem solid white;
     position: absolute;
-    top: 28px;
-    left: 182px;
+  
 }
 
 #triangle-down:after {
     width: 0;
     height: 0;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-top: 20px solid white;
+    border-left: .5rem solid transparent;
+    border-right: .5rem solid transparent;
+    border-bottom: 1rem solid white;
     position: absolute;
-    right: 123px;
-    top: 29px
+    
+}
+.block03 {
+    background-position: relative;
+    background: url(/images/Layer6.png) no-repeat top center / cover;
+    height: 81vh;
+    position: relative;
+    overflow: hidden;
+    margin-top: 155px;
+    margin-bottom: 97px;
 }
 
+.block03:after {
+    
+        content: '';
+        position: absolute;
+        width: 130%;
+        height: 237px;
+        transform: rotate(-5deg);
+        background: #fff;
+        bottom: -80px;
+        left: 0;
+}
 .gift {
     text-align: right;
-    padding: 10px 0px 10px 328px;
-    margin-top: 152px;
-    margin-bottom: 97px
+    padding: .5rem 0 .5rem 16.4rem;
+    margin-top: 7.6rem;
+    margin-bottom: 4.85rem;
 }
 
 .gift h2 {
     font-size: 50px;
     font-weight: 900;
-    margin-bottom: 69px;
+    margin-bottom: 3.45rem;
+    color: white;
 }
 
 .gift p {
-    margin-bottom: 22px;
+    margin-bottom: 1.1rem;
+    color: white;
 }
 .film__head {
-font-size: 50px;
+    font-size: 50px;
     font-family: "Roboto";
     color: rgb(37, 37, 37);
     font-weight: bold;
 }
 .film__text {
-    margin: 40px 390px 0 0;
+    margin: 2rem 19.5rem 0 0;
  }
 
 .movie-grid__flex {
@@ -406,11 +472,15 @@ font-size: 50px;
 }
 
 .movie-grid__item {
-    padding: 18px;
+    padding: .9rem;
 }
 
 .movie-grid__inner1 {
     position: relative;
+}
+
+.movie-grid__poster img {
+    display: block;
 }
 
 .movie-grid__description {
@@ -420,8 +490,9 @@ font-size: 50px;
     top: 0;
     bottom: 0;
     background: rgba(144, 210, 61, .8);
-    border-radius: 11px;
-    padding: 23px;
+    border-radius: .55rem;
+    padding: 1.15rem;
+    display: flex;
     flex-direction: column;
 }
 
@@ -429,15 +500,15 @@ font-size: 50px;
     font-size: 35px;
     font-weight: 900;
     color: #ffffff;
-    margin: 0 0 10px;
+    margin: 0 0 .5rem;
 }
 
 .movie-grid__hr {
-    width: 80px;
-    height: 8px;
+    width: 4rem;
+    height: .4rem;
     border: 0;
     box-shadow: none;
-    margin: 0 0 14px;
+    margin: 0 0 .7rem;
     background: #fff;
 }
 
@@ -457,12 +528,12 @@ font-size: 50px;
 }
 
 .form__mod {
-    max-width: 450px;
-    padding: 25px;
+    max-width: 22.5rem;
+    padding: 1.25rem;
 }
 
 .form__indent {
-    margin: 0 0 20px;
+    margin: 0 0 1rem;
 }
 
 .select__form {
@@ -473,24 +544,24 @@ font-size: 50px;
 .text__form {
     font-size: 18px;
     color: #6c6c6c;
-    padding: 15px 11px;
+    padding: .75rem .55rem;
     border: 1px solid #bebebe;
-    border-radius: 5px;
+    border-radius: .25rem;
     width: 100%;
 }
 
 .radio__form {
-    margin: 0 0 10px;
+    margin: 0 0 .5rem;
 }
 
 .radio__form+label {
     font-size: 16px;
-    padding-left: 23px;
+    padding-left: 1.15rem;
     position: relative;
 }
 
 .textarea__form {
-    height: 250px;
+    height: 12.5rem;
     resize: none;
 }
 
@@ -500,7 +571,7 @@ font-size: 50px;
 
 .checkbox__form+label {
     font-size: 16px;
-    padding-left: 23px;
+    padding-left: 1.15rem;
     position: relative;
 }
 
@@ -518,8 +589,8 @@ font-size: 50px;
     position: absolute;
     left: 0;
     top: 1px;
-    width: 14px;
-    height: 14px;
+    width: .7rem;
+    height: .7rem;
     border: 1px solid black;
 }
 
@@ -564,11 +635,11 @@ font-size: 50px;
     color: #90d23d;
     position: relative;
     border: 1px solid #90d23d;
-    padding: 15px;
+    padding: .75rem;
     z-index: 2;
     background: #fff;
     width: 100%;
     display: block;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: .25rem;
 }
