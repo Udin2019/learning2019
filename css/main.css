@@ -123,7 +123,7 @@ a {
 }
 
 p {
-    font-size: 14px;
+    font-size: .7rem;
     font-weight: 200;
 }
 
@@ -133,14 +133,14 @@ ul {
 
 li {
     display: inline;
-    margin: 0 0 0 20px;
+    margin: 0 0 0 1rem;
 }
 
 h1 {
-    font-size: 80px;
+    font-size: 4rem;
     font-weight: 100;
     color: white;
-    margin: 0 0 10px;
+    margin: 0 0 .5rem;
 }
 
 .block01 {
@@ -156,24 +156,24 @@ h1 {
     content: '';
     position: absolute;
     width: 130%;
-    height: 237px;
+    height: 11.85rem;
     transform: rotate(-5deg);
     background: #fff;
-    bottom: -80px;
+    bottom: -4rem;
     left: 0;
 }
 
 .block__header {
-    padding: 70px 0 0;
+    padding: 3.5rem 0 0;
 }
 
 .block01__row {
     overflow: hidden;
-    margin: 0 -15px;
+    margin: 0 -.75rem;
 }
 
 .block01__row>div {
-    padding: 0 15px;
+    padding: 0 .75rem;
     float: left;
     min-height: 1px;
 }
@@ -187,7 +187,7 @@ h1 {
 }
 
 .foonav {
-    padding: 22px 0 0;
+    padding: 1.1rem 0 0;
     text-align: right;
 }
 
@@ -200,12 +200,12 @@ h1 {
 }
 
 .foonav li+li {
-    margin-left: 13px;
+    margin-left: .65rem;
 }
 
 .foonav a {
     font-weight: 100;
-    font-size: 15px;
+    font-size: .75rem;
     text-transform: uppercase;
     color: #ffffff;
     transition: .2s;
@@ -220,12 +220,12 @@ h1 {
 }
 
 .city {
-    padding: 22px 0 0;
+    padding: 1.1rem 0 0;
 }
 
 .city span {
     color: white;
-    font-size: 15px;
+    font-size: .75rem;
     font-weight: 100;
 }
 
@@ -234,13 +234,13 @@ h1 {
 }
 
 .head__banner {
-    margin: 150px 0 200px;
+    margin: 7.5rem 0 10rem;
 }
 
 .head__banner h2 {
     color: white;
     font-weight: 400;
-    font-size: 50px;
+    font-size: 2.5rem;
 }
 
 .text__centre {
@@ -248,23 +248,23 @@ h1 {
 }
 
 .welcome {
-    width: 515px;
-    padding: 30px;
+    width: 25.75rem;
+    padding: 1.5rem;
     background: white;
     position: absolute;
     right: 0;
-    top: -200px;
+    top: -10rem;
     box-shadow: 0 1px 2px 0px black;
 }
 
 .block02__text1 {
-    font-size: 40px;
+    font-size: 2rem;
     font-weight: 900;
-    margin-bottom: 30px;
+    margin-bottom: 1.5rem;
 }
 
 .welcome p {
-    margin-bottom: 22px;
+    margin-bottom: 1.1rem;
 }
 
 .advantage {
@@ -283,42 +283,42 @@ h1 {
 }
 
 .block02__pluses {
-    padding-top: 5px;
+    padding-top: .25rem;
 
 }
 
 .block02__image-wrap {
-    height: 211px;
+    height: 10.55rem;
 }
 
 .block02__head {
-    margin-bottom: 140px;
+    margin-bottom: 7rem;
 }
 
 .block02__image-wrap {
     position: relative;
-    margin-bottom: 15px;
+    margin-bottom: .75rem;
 }
 
 .block02__info-wrap {
-    width: 1030px;
+    width: 51.5rem;
     margin: 0 auto;
     position: relative
 }
 
 .advantage h3 {
-    font-size: 35px;
+    font-size: 1.75rem;
     font-weight: 700;
     margin-bottom: 1rem;
 }
 
 .container>h2 {
-    font-size: 50px;
+    font-size: 2.5rem;
     font-weight: 700;
 }
 
 .movie-list {
-    padding: 80px 0 39px;
+    padding: 4rem 0 1.95rem;
 }
 
 .container {
@@ -332,7 +332,7 @@ h1 {
     color: #ffffff;
     padding: .75rem 1.5rem;
     border-radius: .6rem;
-    font-size: 18px;
+    font-size: .9rem;
     transition: .2s;
     border: 2px solid #90d23d;
     cursor: pointer;
@@ -349,8 +349,8 @@ h1 {
 }
 
 .movie-list__table th {
-    font-size: 30px;
-    font-weight: 700px;
+    font-size: 1.4rem;
+    font-weight: 700;
     color: #fff;
     background: #a3cc40;
     padding: 1rem 1.5rem;
@@ -358,16 +358,16 @@ h1 {
 }
 
 .movie-table__header {
-    font-size: 50px;
+    font-size: 2.5rem;
     font-family: "Roboto";
     color: rgb(37, 37, 37);
     font-weight: bold;
-    margin: 0 0 77px;
+    margin: 0 0 3.85rem;
     text-align: center
 }
 
 .movie-list__table td {
-    font-size: 21px;
+    font-size: 1.05rem;
     color: #fff;
 }
 
@@ -420,11 +420,22 @@ h1 {
 .block03 {
     background-position: relative;
     background: url(/images/Layer6.png) no-repeat top center / cover;
-    height: 81vh;
+    height: 97vh;
     position: relative;
     overflow: hidden;
-    margin-top: 155px;
-    margin-bottom: 97px;
+    margin-top: 7.75rem;
+    margin-bottom: 4.85rem;
+}
+.block03:before {
+    
+    content: '';
+    position: absolute;
+    width: 130%;
+    height: 8.6rem;
+    transform: rotate(-5deg);
+    background: #fff;
+    top: -4rem;
+    right: 0;
 }
 
 .block03:after {
@@ -432,10 +443,10 @@ h1 {
         content: '';
         position: absolute;
         width: 130%;
-        height: 237px;
+        height: 9rem;
         transform: rotate(-5deg);
         background: #fff;
-        bottom: -80px;
+        bottom: -4rem;
         left: 0;
 }
 .gift {
@@ -446,7 +457,7 @@ h1 {
 }
 
 .gift h2 {
-    font-size: 50px;
+    font-size: 2.5rem;
     font-weight: 900;
     margin-bottom: 3.45rem;
     color: white;
@@ -457,7 +468,7 @@ h1 {
     color: white;
 }
 .film__head {
-    font-size: 50px;
+    font-size: 2.5rem;
     font-family: "Roboto";
     color: rgb(37, 37, 37);
     font-weight: bold;
@@ -473,12 +484,17 @@ h1 {
 
 .movie-grid__item {
     padding: .9rem;
+    position: relative;
 }
 
 .movie-grid__inner1 {
     position: relative;
 }
-
+.movie-grid__social {
+    position: absolute;
+    bottom: .75rem;
+    left: 1rem;
+}
 .movie-grid__poster img {
     display: block;
 }
@@ -497,7 +513,7 @@ h1 {
 }
 
 .movie-grid__text1 {
-    font-size: 35px;
+    font-size: 1.75rem;
     font-weight: 900;
     color: #ffffff;
     margin: 0 0 .5rem;
@@ -513,7 +529,7 @@ h1 {
 }
 
 .movie-grid__text2 {
-    font-size: 18px;
+    font-size: .9rem;
     color: #ffffff;
     flex: 1;
 }
@@ -542,7 +558,7 @@ h1 {
 }
 
 .text__form {
-    font-size: 18px;
+    font-size: .9rem;
     color: #6c6c6c;
     padding: .75rem .55rem;
     border: 1px solid #bebebe;
@@ -555,7 +571,7 @@ h1 {
 }
 
 .radio__form+label {
-    font-size: 16px;
+    font-size: .8rem;
     padding-left: 1.15rem;
     position: relative;
 }
@@ -570,7 +586,7 @@ h1 {
 }
 
 .checkbox__form+label {
-    font-size: 16px;
+    font-size: .8rem;
     padding-left: 1.15rem;
     position: relative;
 }
