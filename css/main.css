@@ -129,6 +129,8 @@ table {
     border-spacing: 0;
 }
 
+
+
 @font-face {
     font-family: 'Roboto';
     src: url('../fonts/Roboto-Regular.ttf') format('truetipe');
@@ -190,7 +192,8 @@ label,
 }
 
 html {
-    font-size: 20px;
+    font-size: 1.46vw;
+    box-sizing: border-box;
 }
 
 img {
@@ -436,15 +439,8 @@ h1 {
     border-radius: .75rem;
     overflow: hidden;
     font-family: "Roboto";
-}
-
-.movie-list__table th {
-    font-size: 1.4rem;
-    font-weight: 700;
-    color: #fff;
-    background: #a3cc40;
-    padding: 1rem 1.5rem;
-    text-align: center;
+    vertical-align: top;
+    
 }
 
 .movie-table__header {
@@ -456,9 +452,21 @@ h1 {
     text-align: center
 }
 
+.movie-list__table th {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #fff;
+    background: #a3cc40;
+    padding: 1rem 1.5rem;
+    text-align: center;
+    
+    
+}
+
 .movie-list__table td {
     font-size: 1.05rem;
     color: #fff;
+    
 }
 
 .movie-list__table1 {
@@ -487,13 +495,13 @@ h1 {
 
 
 #triangle-up:after {
-    top: .5rem;
+    top: 0.5rem;
     z-index: 1;
     width: 0;
     height: 0;
-    border-left: .5rem solid transparent;
-    border-right: .5rem solid transparent;
-    border-bottom: 1rem solid white;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 20px solid white;
     position: absolute;
 
 }
@@ -511,7 +519,7 @@ h1 {
 .block03 {
     background-position: relative;
     background: url(/images/Layer6.png) no-repeat top center / cover;
-    height: 94vh;
+    height: 110vh;
     position: relative;
     overflow: hidden;
     margin-top: 7.75rem;
@@ -535,7 +543,7 @@ h1 {
     content: '';
     position: absolute;
     width: 130%;
-    height: 9rem;
+    height: 8.6rem;
     transform: rotate(-5deg);
     background: #fff;
     bottom: -4rem;
@@ -566,7 +574,7 @@ h1 {
 
 .gift-boxing img {
     position: absolute;
-    left: 264px;
+    left: 13.2rem;
     top: 1px;
     border-radius: 100%;
     overflow: hidden;
@@ -660,7 +668,10 @@ h1 {
 .movie-grid__svg {
     fill: #fff;
     width: 1.7rem;
-    height: 1.7rem transition: .2s;
+    height: 1.7rem;
+    filter: drop-shadow(0px 1px 1px 0px black);
+    transition: .2s;
+    
 }
 
 .movie-grid__svg:hover {
@@ -668,6 +679,7 @@ h1 {
 }
 .movie-grid__svg:hover path {
     fill: turquoise;
+    filter: drop-shadow(0px 0px 0px);
 }
 
 
@@ -723,8 +735,8 @@ h1 {
     position: absolute;
     display: none;
     font-size: .6rem;
-    left: 2px;
-    top: 3px;
+    left: 0.1rem;
+    top: 0.15rem;
     color: #90d23d
 }
 
@@ -775,7 +787,7 @@ h1 {
 }
 
 .file__form+label {
-    font-size: 18px;
+    font-size: 0.9rem;
     color: #90d23d;
     position: relative;
     border: 1px solid #90d23d;
@@ -805,14 +817,12 @@ footer {
 display: flex;
 flex-wrap: wrap;
 flex-direction: row;
-justify-content: center;
-align-items: center;
 }
 
 .container__text {
     color: white;
     text-align: center;
-    top: 60px;
+    top: 3rem;
 
 }
 
@@ -821,11 +831,9 @@ align-items: center;
 }
 
 .foot svg {
-    width: 45px;
-    height: 45px;
+    width: 2.25rem;
     order: 1;
-    
-
+    transform: scale(1, 1);
 }
 
 
