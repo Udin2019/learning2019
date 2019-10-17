@@ -1,12 +1,14 @@
 @media (max-width:1200px) {
-    .simple-text {
+    .container {}
+
+    p {
         font-size: .9rem;
     }
 }
 
 @media (max-width:1000px) {
     html {
-        font-size: 12px;
+        font-size: 15px;
     }
 }
 
@@ -14,5 +16,82 @@
     .container {
         width: 40rem;
     }
-    
+
+    .foonav li+li {
+        margin-left: .15rem;
+    }
+
+    .block01__col3 {
+        width: 20%;
+    }
+
+    .block01__col2 {
+        width: 56%;
+    }
+
+    .block01__col1 {
+        width: 24%;
+    }
+
+    .block__header,
+    .city {
+        padding-top: .3rem;
+    }
+
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    .head__banner h2 {
+        font-size: 2.1rem;
+    }
+
+    .block01 {
+        min-height: 0;
+    }
+    .welcome {
+        width: 57%;
+        top: -13rem;
+        right: 8rem;
+    }
+    .movie-list-wrap {
+        overflow: auto;
+    }
+    .movie-list__table {
+        width: 800px;
+    }
+    .movie-grid__text2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width:600px) {
+    .container {
+        width: 30rem;
+    }
+    .menu-beurger span,
+    .menu-beurger::before,
+    .menu-beurger::after {
+content: "";
+width: 100%;
+background: white;
+height: 1px;
+display: block;
+position: absolute;
+    }
+    .menu-beurger {
+        position: relative;
+        width: 20px;
+        height: 19px;
+        cursor: pointer;
+    }
+    .menu-beurger span {
+        top: 9px;
+    }
+    .menu-beurger::before {
+        top: 0;
+    }
+    .menu-beurger::after {
+        bottom: 0;
+    }
 }
