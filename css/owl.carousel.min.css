@@ -87,7 +87,8 @@
     color: inherit;
     border: none;
     padding: 0 !important;
-    font: inherit
+    font: inherit;
+    max-width: 53rem;
 }
 
 .owl-carousel.owl-loading {
@@ -215,4 +216,8 @@
     z-index: 1;
     height: 100%;
     width: 100%
+}
+
+.owl-font {
+    font-size: 2.5rem;
 }
