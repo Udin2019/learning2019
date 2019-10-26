@@ -37,7 +37,7 @@
 
     .block__header,
     .city {
-        padding-top: .3rem;
+        padding-top: 3rem;
     }
 
     h1 {
@@ -53,9 +53,9 @@
     }
 
     .welcome {
-        width: 57%;
+        width: 55%;
         top: -13rem;
-        right: 8rem;
+        left: 22rem;
     }
 
     .movie-list-wrap {
@@ -76,6 +76,7 @@
 }
 
 @media (max-width:600px) {
+
     .container {
         width: 30rem;
     }
@@ -109,7 +110,7 @@
     .menu-beurger::after {
         bottom: 0;
     }
-
+    
     .foonav {
         display: none;
         position: fixed;
@@ -132,9 +133,15 @@
         width: 20%;
     }
     .welcome {
-        position: static;
-        width: 100%;
+        position: absolute;
+        width: 45%;
+        left: 20rem;
     }
+    .welcome p {
+        font-size: 0.7rem;
+    }
+
+
     .block02__row {
         flex-wrap: wrap;
         justify-content: center;
@@ -145,10 +152,23 @@
     
 
     .movie-grid__flex {
-
         grid-template-columns: 1fr 1fr;
     }
+}
 
+@media (max-width:400px) {
+   
+    .advantage {
+        flex-basis: 100%;
+    }
     
+    .block02__row {
+        flex-direction: row-reverse;
+    }
+
+    .movie-grid__flex {
+        grid-template-columns: 1fr;
+        
+    }
 
 }
