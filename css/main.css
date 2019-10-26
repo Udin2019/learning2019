@@ -344,8 +344,8 @@ h1 {
     padding: 1.5rem;
     background: white;
     position: absolute;
-    right: 0;
-    top: -10rem;
+    right: 2rem;
+    top: -13rem;
     box-shadow: 0 1px 2px 0px black;
 }
 
@@ -570,6 +570,8 @@ h1 {
     color: white;
 }
 
+
+
 .gift p {
     margin-bottom: 1.1rem;
     color: white;
@@ -577,7 +579,7 @@ h1 {
 
 .gift-boxing img {
     position: absolute;
-    left: 13.2rem;
+    left: 7rem;
     top: 1px;
     border-radius: 100%;
     overflow: hidden;
@@ -593,37 +595,32 @@ h1 {
 }
 
 .film__text {
-    margin: 2rem 19.5rem 0 0;
+    margin: 3rem 19.5rem 0 0;
+    
 }
 
 .movie-grid__flex {
     display: grid;
     margin: 0 0;
-    grid-template-columns: 1fr 1fr 1fr;
+  
 }
 
-.movie-grid__item {
+.movie-grid__item1,
+.movie-grid__item2,
+.movie-grid__item3 {
     padding: .9rem;
     position: relative;
-
 }
 
-.movie-grid__item:nth-of-type(1) {
-    order: 3;
+.movie-grid__flex>.movie-grid__item3 {
+    grid-row: 2;
 }
-
-
 
 
 .movie-grid__inner1 {
     position: relative;
     overflow: hidden;
 }
-
-
-
-
-
 
 .movie-grid__social {
     position: absolute;

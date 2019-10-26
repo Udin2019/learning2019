@@ -12,6 +12,10 @@
     html {
         font-size: 15px;
     }
+    .gift-boxing img  {
+        left: 3rem;
+        width: 32%;
+    }
 }
 
 @media (max-width:800px) {
@@ -49,13 +53,15 @@
     }
 
     .block01 {
-        min-height: 0;
+        height: 97vh;
+    }
+
+    .block03 {
+        height: 95vh;
     }
 
     .welcome {
-        width: 55%;
-        top: -13rem;
-        left: 22rem;
+        width: 50%;  
     }
 
     .movie-list-wrap {
@@ -72,6 +78,19 @@
 
     .movie-grid__text2 {
         font-size: 1.5rem;
+    }
+    .gift-boxing img {
+        left: 2.2rem;
+        width: 33%;
+    }
+    
+    .gift h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    }
+
+    .film__text {
+        margin: 1.5rem 1.5rem 0 0;
     }
 }
 
@@ -133,9 +152,9 @@
         width: 20%;
     }
     .welcome {
-        position: absolute;
+        
         width: 45%;
-        left: 20rem;
+        
     }
     .welcome p {
         font-size: 0.7rem;
@@ -149,10 +168,10 @@
     .advantage {
         flex-basis: 50%;
     }
-    
 
+    
     .movie-grid__flex {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr ;
     }
 }
 
