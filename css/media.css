@@ -100,33 +100,34 @@
         width: 30rem;
     }
 
-    .menu-beurger span,
-    .menu-beurger::before,
-    .menu-beurger::after {
+    .menu-burger span,
+    .menu-burger::before,
+    .menu-burger::after {
         content: "";
         width: 100%;
+        left: 0;
         background: white;
         height: 1px;
         display: block;
         position: absolute;
     }
 
-    .menu-beurger {
+    .menu-burger {
         position: relative;
-        width: 20px;
-        height: 19px;
+        width: 1rem;
+        height: .85rem;
         cursor: pointer;
     }
 
-    .menu-beurger span {
+    .menu-burger span {
         top: 9px;
     }
 
-    .menu-beurger::before {
+    .menu-burger::before {
         top: 0;
     }
 
-    .menu-beurger::after {
+    .menu-burger::after {
         bottom: 0;
     }
     
@@ -144,7 +145,8 @@
     .foonav li {
         display: block;
         margin-bottom: 1rem;
-    }
+    } 
+
     .block01__col1 {
         width: 30%;
     }
