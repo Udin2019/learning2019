@@ -482,13 +482,13 @@ h1 {
 
 .movie-list__center {
     text-align: center;
-    padding: 1.3rem 3.25rem 1.3rem 0.65rem;
+    padding: 1.3rem 0.65rem 1.3rem 0.65rem;
     position: relative;
 }
 
 .movie-list__left {
     text-align: left;
-    padding: 0px 0px 0px 1.25rem;
+    padding: 0px 0px 0px 3.65rem;
     position: relative;
 }
 
@@ -647,7 +647,15 @@ h1 {
     transition: .2s;
 }
 
-.movie-grid__item:hover .movie-grid__description {
+.movie-grid__item1:hover .movie-grid__description {
+    bottom: 0;
+}
+
+.movie-grid__item2:hover .movie-grid__description {
+    bottom: 0;
+}
+
+.movie-grid__item3:hover .movie-grid__description {
     bottom: 0;
 }
 
