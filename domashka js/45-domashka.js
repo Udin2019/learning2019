@@ -20,13 +20,13 @@
 
 // Задание 4 
 
-function randomInteger(min, max) {
+// function randomInteger(min, max) {
     
-    let rand = min + Math.random() * (max - min + 1);
-    return Math.round(rand);
-  }
+//     let rand = min + Math.random() * (max - min + 1);
+//     return Math.round(rand);
+//   }
   
-  console.log( randomInteger(1, 99) );
+//   console.log( randomInteger(1, 99) );
 
 
 // // 4.5 domashka 
@@ -107,6 +107,18 @@ function randomInteger(min, max) {
 // let max = Math.max.apply(null, d);
 
 // console.log(max)
+
+
+//4.7 Замыкания
+
+// const arr = [10, 12, 15, 21];
+// for (let i = 0; i < arr.length; i++) {
+// setTimeout(function() {
+// console.log('Index: ' + i + ', element: ' + arr[i]);
+// }, 3000);
+// }
+
+// Потому, что в цикле вместо let переменная приваивалась с помощью var.  
 
 
 
