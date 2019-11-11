@@ -1,10 +1,33 @@
 // // // 4.6 Domashka
 
-
+// задание 1
 // // function myFunction() {
 // //     let x = document.getElementById("myInput").value;
 // //     document.getElementById("demo").innerHTML = "Владимир";
 // //   }
+
+// задание 2
+
+
+// function max(...numbers) {
+//     let result = -Infinity;
+//     for (let number of numbers) {
+//         if (number > result) result = number;
+//     }
+//     return result;
+// }
+// console.log(max(69, 60))
+
+// Задание 4 
+
+function randomInteger(min, max) {
+    
+    let rand = min + Math.random() * (max - min + 1);
+    return Math.round(rand);
+  }
+  
+  console.log( randomInteger(1, 99) );
+
 
 // // 4.5 domashka 
 
@@ -40,14 +63,14 @@
 
 // // // 3 задание
 
-let a7 = {     
-    key: "value", 
-  };
+// let a7 = {     
+//     key: "value", 
+//   };
 
-function wtite_input () {
-  let quantity = document.getElementById("quantity").value;
-  document.getElementById("otpravit").onclick = write_input;
-}
+// function wtite_input () {
+//   let quantity = document.getElementById("quantity").value;
+//   document.getElementById("otpravit").onclick = write_input;
+// }
 
  
 // button.addEventListener('click', function() {
