@@ -43,3 +43,5 @@ let selectGuest = document.getElementById('select_guest')
 selectGuest.onchange = function () {
     console.log('До нажатия кнопки Отправить: selectGuest', selectGuest.value)
 }
+
+
