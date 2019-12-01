@@ -468,9 +468,18 @@ h1 {
 
 .movie-list__table td {
     font-size: 1.05rem;
-    color: #fff;
+    color: #ffffff;
 
 }
+
+#filmsHire tr:nth-child(2n) {
+    background-color: #373737;
+}
+
+#filmsHire tr:nth-child(2n+1) {
+    background-color: #4b4d4f;
+}
+
 
 .movie-list__table1 {
     background-color: rgb(55, 55, 55);
